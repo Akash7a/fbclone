@@ -1,0 +1,529 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- font awesom -->
+    <script src="https://kit.fontawesome.com/d155617fd8.js" crossorigin="anonymous"></script>
+    <title>StoryBook</title>
+    <!-- stylesheets -->
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="utils.css">
+    <!-- bootstrap fonts -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.10.5/font/bootstrap-icons.css">
+</head>
+
+<body>
+
+    <!-- header -->
+    <header>
+        <div class="first-row row">
+            <div class="flogo"><i class="bi bi-facebook"></i></div>
+            <div class="searchBox"><i class="bi bi-search"></i><input type="text" placeholder="Search yourStory">
+            </div>
+        </div>
+        <div class="second-row row">
+            <i class="bi bi-house-fill"></i>
+            <i class="bi bi-people"></i>
+            <i class="bi bi-person-hearts"></i>
+            <!-- <i class="bi bi-list"></i> -->
+        </div>
+        <div class="third-row row">
+            <a href="#" class="friends-link bg-change" id="friend">find friends</a>
+            <i class="bi bi-menu-button-wide-fill bg-change"></i>
+            <i class="bi bi-messenger bg-change"></i>
+            <div class="notification">
+                <i class="bi bi-bell-fill bg-change"></i>
+                <span class="notification-count">12</span>
+            </div>
+            <div class="profile-img">
+                <img src="profile.jpg" alt="profile img" style="border: 2px solid blue;" id="profile">
+                <span class="online-check"></span>
+            </div>
+            <div class="profile-container">
+                <div class="top-profile">
+                    <div>
+                        <img src="profile.jpg" width="40px" height="40px" alt="profile img"
+                            style="border-radius: 50%;">
+                        <p>Akash Kumar</p>
+                    </div>
+                    <div>
+                        <p>See all profiles</p>
+                        <p>15</p>
+                    </div>
+                </div>
+                <div class="edit-options">
+
+                    <div class="options">
+                        <a href="#">
+                            <i class="fa-solid fa-gear"></i>
+                            Setting & privacy
+                        </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="options">
+
+                        <a href="#">
+                            <i class="fa-solid fa-circle-question"></i>
+                            Help & support
+                        </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="options">
+                        <a href="#">
+                            <i class="fa-solid fa-moon"></i>
+                            Display & accessbility
+                        </a>
+                        <i class="fa-solid fa-angle-right"></i>
+                    </div>
+                    <div class="options">
+                        <a href="#">
+                            <i class="bi bi-exclamation-square"></i>
+                            Feedback
+                        </a>
+                    </div>
+                    <div class="options">
+                        <a href="#">
+                            <i class="fa-solid fa-right-from-bracket"></i>
+                            Log out
+                        </a>
+                    </div>
+                    <div style="font-size: 14px;">
+                        <p class="ad-links"><a href="#">Privacy</a><a href="#">Terms</a>·<a href="#">Advertising</a><a
+                                href="#">Ad
+                                choices</a>.<a href="#">Cookies</a> Meta © 2023</p>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </header>
+    <!-- first section -->
+    <section class="parent-section">
+        <div class="first-column-wrapper">
+            <ul class="first-section-column">
+                <li class="first-row-item- column">
+                    <a href="#" class="center">
+                        <img class="side-profile-img" src="profile.jpg">
+                        Akash Kumar
+                    </a>
+                </li>
+                <li class="first-column-item-2  column">
+                    <a href="#" class="center"><i class="bi bi-people-fill"></i>Find Frieds</a>
+                </li>
+                <li class="first-column-item-3 column">
+                    <a href="#" class="center"><i class="bi bi-tv-fill"></i>Watch</a>
+                </li>
+                <li class="first-column-item-4 column">
+                    <a href="#" class="center"><i class="bi bi-stopwatch-fill"></i>
+                        Most Recent
+                    </a>
+                </li>
+                <li class="first-column-item-5 column">
+                    <a href="#" class="center"><i class="bi bi-person-fill-add"></i>
+                        Groups
+                    </a>
+                </li>
+                <li class="first-column-item-6 column">
+                    <a href="#" class="center"><i class="bi bi-shop"></i>Marketplace</a>
+                </li>
+                <li class="first-column-item-7 column">
+                    <a href="#" class="center"><i class="bi bi-stopwatch"></i>
+                        Memories
+                    </a>
+                </li>
+                <li class="first-column-item-8 column">
+                    <a href="#" class="center"><i class="bi bi-bookmark-check"></i>
+                        Saved
+                    </a>
+                </li>
+                <li class="first-column-item-9 column">
+                    <a href="#" class="center"><i class="bi bi-flag-fill"></i>
+                        Pages
+                    </a>
+                </li>
+                <li class="first-column-item-10 column">
+                    <a href="#" class="center"><i class="bi bi-calendar4-event"></i>Event</a>
+                </li>
+                <li class="first-column-item-11 column">
+                    <a href="#" class="center"><i class="bi bi-star-fill"></i>Favoraites</a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-caret-down-fill"></i>
+                        See More
+                    </a>
+                </li>
+                <li class="first-column-item-13 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-megaphone"></i>
+                        Ad Center
+                    </a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-bar-chart-line-fill"></i>
+                        Ads Manager
+                    </a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-droplet-fill"></i>
+                        Blood Donation
+                    </a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-tree-fill"></i>
+                        Climate science center
+                    </a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-exclamation-diamond-fill"></i>
+                        Crisis Response
+                    </a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-exclamation-diamond-fill"></i>
+                        Crisis Response
+                    </a>
+                </li>
+                <li class="first-column-item-12 column">
+                    <a href="#" class="center">
+                        <i class="bi bi-exclamation-diamond-fill"></i>
+                        Crisis Response
+                    </a>
+                </li>
+            </ul>
+        </div>
+        <div class="second-section-column">
+            <div class="second-column-item-1">
+                <div class="story-navigation">
+                    <a href="#"><i class="bi bi-book"></i>Stories</a>
+                    <a href="#"><i class="bi bi-film"></i>Reels</a>
+                </div>
+                <div class="story">
+                    <div class="first-story">
+                        <img height="" src="OIP.jpg">
+                        <i class="bi bi-plus create-icon"></i>
+                        Create Story
+                    </div>
+                    <div class="story-details">
+                        <a href="#"> <i class="bi bi-envelope-paper-heart-fill"></i>Share everyday moments with
+                            friends
+                            and family.</a>
+                        <a href="#"><i class="bi bi-watch"></i>Stories disappear after 24 hours.</a>
+                        <a href="#"><i class="bi bi-messenger"></i>
+                            Replies and reactions are private.</a>
+                    </div>
+                </div>
+            </div>
+            <div class="second-column-item-2">
+                <div class="create-post-box">
+                    <div class="top-post-navigation">
+                        <img src="OIP.jpg">
+                        <textarea id="inputField" placeholder="What's on your mind,Akash?"></textarea>
+                    </div>
+                    <div class="main-post-navigation">
+                        <a href="#"><i class="bi bi-camera-reels-fill"></i>Live video</a>
+                        <a href="#"><i class="bi bi-images"></i>Photo/video</a>
+                        <a href="#"><i class="bi bi-emoji-smile"></i>Feeling/activity</a>
+                    </div>
+                </div>
+            </div>
+            <div class="second-column-item-4">
+                <div class="profiles-container">
+                    <div class="friend-info">
+                        <p>Things you may like</p>
+                        <i class="fa-solid fa-ellipsis ring-bg"></i>
+                    </div>
+                    <div class="img-wrapper">
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/300" height="300px" width="200px">
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/310" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/350" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/340" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/305" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/306" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/307" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/308" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/309" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/310" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="https://picsum.photos/200/311" height="300px" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                        <div class="img-container">
+                            <img src="download.jpg" width="200px">
+                            <!-- <i class="bi bi-x-lg close-profile"></i> -->
+                            <h3>Superman</h3>
+                            <button><i class="fa-solid fa-user-plus"></i>Add friend</button>
+                        </div>
+                    </div>
+                    <div class="see-all">
+                        <p>See All</p>
+                    </div>
+                    <span class="prev">
+                        <a href="javascript:void(0)" onclick="goPrev()">&#10094;</a>
+                    </span>
+                    <span class=" next">
+                        <a href="javascript:void(0)" onclick="goNext()">&#10095;</a>
+                    </span>
+                </div>
+            </div>
+            <div class="second-column-item-3 main-content">
+                <div class="main-contait-wrapper">
+                    <span class="sponser-title">
+                        Suggested for you
+                    </span>
+                    <div class="upper-profile">
+                        <div>
+                            <span class="upper-profile-logo">🤩</span>
+                            <span><a href="#">Hindi Jokes & Shayari</a></span>
+                        </div>
+                        <div>
+                            <i class="bi bi-three-dots"></i>
+                            <i class="bi bi-x-lg" onclick="closeImage()"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/298" width="100%">
+                    </div>
+                    <div class="feedback">
+                        <a href=" ">
+                            <i style=" font-size: 13px; padding: 5px; color:white;background-color: rgb(43, 161, 245); border-radius: 50%;"
+                                class="bi bi-hand-thumbs-up-fill"></i>
+                            <span class="likeDisplay">0</span>
+                        </a>
+                        <div class="feedback-data">
+                            <span>
+                                1.4k coomments
+                            </span>
+                            <span>
+                                31K shares
+                            </span>
+                        </div>
+                    </div>
+                    <div class="feedback-container">
+                        <div class="like-container">
+                            <div class="feedback-options">
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-hand-thumbs-up-fill "></i>
+                                </a>
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-heart-fill "></i>
+                                </a>
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-emoji-heart-eyes "></i>
+                                </a>
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-emoji-laughing "></i>
+                                </a>
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-emoji-laughing-fill "></i>
+                                </a>
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-emoji-frown-fill "></i>
+                                </a>
+                                <a href="javascript:void(0)" class="like-options">
+                                    <i class="bi bi-emoji-angry-fill "></i>
+                                </a>
+                            </div>
+                        </div>
+                        <div class="feedback-like-container">
+                            <button id="like-btn">
+                                <i class="bi bi-hand-thumbs-up-fill"></i>
+                                Like
+                            </button>
+                            <a href="javascript:void(0)">
+                                <i class="bi bi-chat-left"></i>
+                                Comment
+                            </a>
+                            <a href="javascript:void(0)">
+                                <i class="bi bi-share-fill"></i>
+                                Share
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="second-column-item-3 main-content">
+                <div class="main-contait-wrapper">
+                    <span class="sponser-title">
+                        Suggested for you
+                    </span>
+                    <div class="upper-profile">
+                        <div>
+                            <span class="upper-profile-logo">🤩</span>
+                            <span><a href="#">Hindi Jokes & Shayari</a></span>
+                        </div>
+                        <div>
+                            <i class="bi bi-three-dots"></i>
+                            <i class="bi bi-x-lg" onclick="closeImage()"></i>
+                        </div>
+                    </div>
+                    <div>
+                        <img src="https://picsum.photos/200/299" width="100%" alt="">
+                    </div>
+                    <div class="feedback">
+                        <a href="javascript:void(0)">
+                            <i style=" font-size: 13px; padding: 5px; color:white;background-color: rgb(43, 161, 245); border-radius: 50%;"
+                                class="bi bi-hand-thumbs-up-fill"></i>
+                            ❤️25K
+                        </a>
+                        <div class="feedback-data">
+                            <span>
+                                1.4k coomments
+                            </span>
+                            <span>
+                                31K shares
+                            </span>
+                        </div>
+                    </div>
+                    <div class="feedback-like-container">
+                        <a href="javascript:void(0)">
+                            <i class="bi bi-hand-thumbs-up-fill"></i>
+                            Like
+                        </a>
+                        <a href="javascript:void(0)">
+                            <i class="bi bi-chat-left"></i>
+                            Comment
+                        </a>
+                        <a href="javascript:void(0)">
+                            <i class="bi bi-share-fill"></i>
+                            Share
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="third-section-column">
+            <div class="third-column-item-1">
+                <span class="sponser-title">Sponsored</span>
+                <div class="sponser">
+                    <div class="sponser-img-wrapper">
+                        <img class="sponser-img" width="140px" src="/images/sponsor-img-1.jpg">
+                    </div>
+                    <span class="sponser-text">
+                        USA Education is <br> Affordable-Get Free <br>
+                        online counselling!
+                        <a href="#">www/idp.com/india</a>
+                    </span>
+                </div>
+                <div class="sponser">
+                    <div class="sponser-img-wrapper">
+                        <img class="sponser-img" width="140px" src="/images/sponsser-img-2.jpg">
+                    </div>
+                    <span class="sponser-text">
+                        Admission for 2023 is now open
+                        <br>
+                        <a href="#">aaft.com</a>
+                    </span>
+                </div>
+                <div class="create-group">
+                    Group conversations
+                    <div class="create-group-btn">
+                        <i class="bi bi-plus-circle"></i>
+                        Create new group
+                    </div>
+                </div>
+            </div>
+            <div class="third-column-item-2"></div>
+        </div>
+    </section>
+    <div class="pop-parent-container">
+        <div class="pop-container">
+            <div class="create ">
+                <h2>Create post</h2>
+                <i class="bi bi-x  cancel" id="close-btn"></i>
+            </div>
+            <div class="profile-friend-pop-up">
+                <img src="/images/OIP.jpg" width="45px" height="45px" style="border-radius:50%" alt="profile">
+                <div>
+                    <span>Akash Kumar</span>
+                    <button class="friend-option"><i class="bi bi-people-fill"></i>Friends<i
+                            class="bi bi-caret-down-fill"></i></button>
+                </div>
+            </div>
+            <div class="inputContainer">
+                <textarea placeholder="What's on your mind Akash?"></textarea>
+            </div>
+            <div class="color-picker">
+                <button>Aa</button>
+                <i class="bi bi-emoji-smile"></i>
+            </div>
+            <div class="add-option">
+                <p>Add to your post</p>
+                <div class="fav-options">
+                    <i class="bi bi-images"></i>
+                    <i class="bi bi-person-check-fill"></i>
+                    <i class="bi bi-emoji-smile-fill"></i>
+                    <i class="bi bi-geo-alt-fill"></i>
+                    <i class="bi bi-filetype-gif"></i>
+                    <i class="bi bi-three-dots"></i>
+                </div>
+            </div>
+            <button id="postBtn">Post</button>
+        </div>
+
+    </div>
+    <!-- create a new group btn -->
+
+    <!-- js -->
+    <script src="index.js"></script>
+</body>
+
+</html>
